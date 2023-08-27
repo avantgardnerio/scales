@@ -35,7 +35,7 @@ for(let string = 0; string < stringCnt; string++) {
 // frets
 for(let fret = 0; fret < fretCount; fret++) {
     let x = fretPos(fret);
-    addLine(x, 10, x, 130);
+    addLine(x, 10, x, stringCnt * 40 - 30);
 }
 
 // dots
